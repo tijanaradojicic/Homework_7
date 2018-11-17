@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+
+button{
+    border: none;
+}
+
+.navigation, .control{
+    width: 100%;
+    height: 50px;
+}
+
+.navigation button{
+    width: 33%;
+    height: 100%;
+    padding: 0;
+    background-color: rgb(128, 212, 245);
+    font-size: 3vw;
+}
+
+.countdown{
+    width: 100%;
+    padding: 0;
+    height: 250px;
+}
+
+#timer{
+    height: 50%;
+    font-size: 6vw;
+    font-weight: bold;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.control button{
+    width: 25%;
+    height: 100%;
+    margin-left: 6%;
+    font-size: 3vw;
+}
+
+#start{
+    background-color: red;
+}
+
+#stop{
+    background-color: green;
+}
